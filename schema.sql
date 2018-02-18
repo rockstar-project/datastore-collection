@@ -5,7 +5,8 @@ CREATE TABLE IF NOT EXISTS COLLECTION (
   SLUG varchar(255),
   TITLE varchar(255),
   DESCRIPTION varchar(1000),
-  IMAGE varchar(255));
+  IMAGE varchar(255),
+  VISIBILITY varchar(255));
 
 CREATE TABLE IF NOT EXISTS ITEM (
   ID varchar(36) PRIMARY KEY,
